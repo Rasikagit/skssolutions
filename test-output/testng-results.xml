@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11627" started-at="2020-09-30T00:12:53 IST" finished-at="2020-09-30T00:13:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11627" started-at="2020-09-30T00:12:53 IST" finished-at="2020-09-30T00:13:05 IST">
+      <class name="Academy.AboutpageTest">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Academy.AboutpageTest@3b69e7d1]" name="initialise" is-config="true" duration-ms="9596" started-at="2020-09-30T00:12:53 IST" finished-at="2020-09-30T00:13:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="Validateaboutpageelementpresent()[pri:0, instance:Academy.AboutpageTest@3b69e7d1]" name="Validateaboutpageelementpresent" duration-ms="440" started-at="2020-09-30T00:13:03 IST" finished-at="2020-09-30T00:13:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validateaboutpageelementpresent -->
+        <test-method status="PASS" signature="Validateaboutpageelementtext()[pri:0, instance:Academy.AboutpageTest@3b69e7d1]" name="Validateaboutpageelementtext" duration-ms="222" started-at="2020-09-30T00:13:03 IST" finished-at="2020-09-30T00:13:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validateaboutpageelementtext -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.AboutpageTest@3b69e7d1]" name="teardown" is-config="true" duration-ms="1328" started-at="2020-09-30T00:13:04 IST" finished-at="2020-09-30T00:13:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.AboutpageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

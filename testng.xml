@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="Academy.Listeners"/>
+</listeners>
+  <test name="Test1">
+    <classes>
+      <class name="Academy.AboutpageTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+	<classes>
+		<class name="Academy.ScrollingElementTest"/>
+		</classes>
+		</test><!--Test2-->
+		<test name="Test3">
+	<classes>
+		<class name="Academy.ProductspageTest"/>
+		</classes>
+</test><!--Test3-->
+	<test name="Test4">
+		<classes>
+			<class name="Academy.Homepagetest"/>
+			</classes>
+	</test><!--Test4-->
+	<test name="Test5">
+		<classes>
+			<class name="Academy.EnquiryPageTest"></class></classes></test><!--Test5-->
+	<test name="Test6">
+		<classes>
+			<class name="Academy.CustomersPageTest"></class>
+			</classes></test><!--Test6-->
+	<test name="Test7">
+		<classes>
+			<class name="Academy.ContactuspageTest"></class></classes></test><!--Test7-->
+	
+		
+	</suite> 

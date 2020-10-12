@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 7, Errors: 0, Skipped: 29, Time elapsed: 4.484 s <<< FAILURE! - in TestSuite
+Academy.AboutpageTest.initialise  Time elapsed: 2.304 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\RASH\eclipse-workspace\E2EProject\src\Drivers\geckodriver.exe
+	at Academy.AboutpageTest.initialise(AboutpageTest.java:22)
+
+Academy.ScrollingElementTest.initialise  Time elapsed: 0.603 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\RASH\eclipse-workspace\E2EProject\src\Drivers\geckodriver.exe
+	at Academy.ScrollingElementTest.initialise(ScrollingElementTest.java:27)
+
+Academy.ProductspageTest.initialise  Time elapsed: 0.059 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\RASH\eclipse-workspace\E2EProject\src\Drivers\geckodriver.exe
+	at Academy.ProductspageTest.initialise(ProductspageTest.java:24)
+
+Academy.Homepagetest.initialise  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\RASH\eclipse-workspace\E2EProject\src\Drivers\geckodriver.exe
+	at Academy.Homepagetest.initialise(Homepagetest.java:19)
+
+Academy.EnquiryPageTest.initialise  Time elapsed: 0.066 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\RASH\eclipse-workspace\E2EProject\src\Drivers\geckodriver.exe
+	at Academy.EnquiryPageTest.initialise(EnquiryPageTest.java:20)
+
+Academy.CustomersPageTest.initialise  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\RASH\eclipse-workspace\E2EProject\src\Drivers\geckodriver.exe
+	at Academy.CustomersPageTest.initialise(CustomersPageTest.java:23)
+
+Academy.ContactuspageTest.initialise  Time elapsed: 0.052 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\RASH\eclipse-workspace\E2EProject\src\Drivers\geckodriver.exe
+	at Academy.ContactuspageTest.initialise(ContactuspageTest.java:23)
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <classes>
+      <class name="Academy.AboutpageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialise"/>
+          <include name="Validateaboutpageelementpresent"/>
+          <include name="Validateaboutpageelementtext"/>
+        </methods>
+      </class> <!-- Academy.AboutpageTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)" verbose="0">
+    <classes>
+      <class name="Academy.ScrollingElementTest">
+        <methods>
+          <include name="initialise"/>
+          <include name="teardown"/>
+          <include name="ValidateScrollingElement"/>
+        </methods>
+      </class> <!-- Academy.ScrollingElementTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)" verbose="0">
+    <classes>
+      <class name="Academy.ProductspageTest">
+        <methods>
+          <include name="ValidateGlassware"/>
+          <include name="ValidateEquipment"/>
+          <include name="ValidateSurgicals"/>
+          <include name="initialise"/>
+          <include name="ValidateConsumables"/>
+          <include name="Validatelistofproducts"/>
+          <include name="Validateproductspageelementspresent"/>
+          <include name="Validateproductspageelementstext"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ProductspageTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" name="Test4(failed)" verbose="0">
+    <classes>
+      <class name="Academy.Homepagetest">
+        <methods>
+          <include name="validatehomepageelementspresent"/>
+          <include name="teardown"/>
+          <include name="Validatehomepageelementtext"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- Academy.Homepagetest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="5" name="Test5(failed)" verbose="0">
+    <classes>
+      <class name="Academy.EnquiryPageTest">
+        <methods>
+          <include name="Validatesendyourquirywithoutdata"/>
+          <include name="ValidateEnquirysend"/>
+          <include name="teardown"/>
+          <include name="initialise"/>
+          <include name="Validateenquirypageelementstext"/>
+        </methods>
+      </class> <!-- Academy.EnquiryPageTest -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="5" name="Test6(failed)" verbose="0">
+    <classes>
+      <class name="Academy.CustomersPageTest">
+        <methods>
+          <include name="Validatecustomerspageelementspresent"/>
+          <include name="teardown"/>
+          <include name="initialise"/>
+          <include name="Validatecustomerspageelementtext"/>
+          <include name="ValidateListofcustomers"/>
+        </methods>
+      </class> <!-- Academy.CustomersPageTest -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test thread-count="5" name="Test7(failed)" verbose="0">
+    <classes>
+      <class name="Academy.ContactuspageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Validatedataentrycontactform"/>
+          <include name="initialise"/>
+          <include name="Validatesendyourmessagewithoutdata"/>
+          <include name="Validatecontactuspageelementstext"/>
+        </methods>
+      </class> <!-- Academy.ContactuspageTest -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+</suite> <!-- Failed suite [Suite] -->
